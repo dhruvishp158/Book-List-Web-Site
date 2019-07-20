@@ -1,0 +1,110 @@
+body
+{
+    background:rgb(105, 109, 105);
+    letter-spacing: 1px;
+}
+h1,h2{
+    font-weight: normal;
+}
+.clr{
+    clear: both;
+}
+#wrapper{
+    width: 90%;
+    max-width: 960px;
+    margin:20px auto;
+    border-radius: 6px;
+    box-shadow: 0px 1px 6px rgb(0,0,0,0.2);
+    box-sizing: border-box;
+    padding: 0  20px;
+    overflow: hidden;
+    border:1px solid black;
+}
+#page-banner{
+    background:#eee;
+    padding:10px 0;
+}
+#page-banner h1, #page-banner p{
+    width:100%;
+    text-align: center;
+    margin:10px 0;
+}
+#page-banner input{
+    width:90%;
+    max-width:300px;
+    margin:20px auto;
+    display: block;
+    padding:8px;
+    border:1px solid black;
+    font-size:16px;
+    color:#444;
+    border-radius: 4px;
+}
+#book-list, #add-book{
+    margin:30px;
+}
+#book-list ul{
+    list-style-type: none;
+    padding:0;
+
+}
+#book-list li{
+    padding: 20px;
+    border-left:5px solid #ddd;
+    margin:20px 10px;
+}
+#book-list li:hover{
+    border-color:black;
+}
+.delete{
+    float: right;
+    background:black;
+    color:white;
+    padding:6px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+.delete:hover{
+    background: white;
+    color:black;
+}
+#add-book input{
+    display:block;
+    margin:20px 0;
+    padding:10px;
+    border:1px solid black;
+    font-size:16px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width:300px;
+    float:left;
+    clear:both;
+}
+#add-book button{
+    border:1px solid black;
+    background:black;
+    color:white;
+    padding:10px 20px;
+    font-size:16px;
+    display: inline;
+    margin:20px 0px;
+    border-radius: 4px;
+    width:70px;
+    cursor: pointer;
+    float:left;
+}
+#add-book button:hover{
+    background: WHITE;
+    color:black;
+}
+#add-book #hide{
+    width:30px;
+}
+#add-book label{
+    line-height: 52px;
+}
+#add-book{
+    width: 400px;
+    margin:0 auto;
+}
